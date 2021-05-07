@@ -1,0 +1,406 @@
+Error setting priority: Invalid argument
+Local IP Addr : 192.168.1.179
+Socket ready
+SERrecv dt: 20361 Image Type: 0 imgReady 0
+UDPsend dt: 18390
+SERrecv dt: 51976 Image Type: 0 imgReady 0
+UDPsend dt: 51882
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51981
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52016
+SERrecv dt: 51988 Image Type: 0 imgReady 0
+UDPsend dt: 51995
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 52432
+SERrecv dt: 52018 Image Type: 0 imgReady 0
+UDPsend dt: 52007
+SERrecv dt: 51995 Image Type: 0 imgReady 0
+UDPsend dt: 52038
+SERrecv dt: 51997 Image Type: 0 imgReady 0
+UDPsend dt: 51999
+SERrecv dt: 53002 Image Type: 0 imgReady 0
+UDPsend dt: 53137
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52025
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 51966
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52128
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 52011
+SERrecv dt: 52003 Image Type: 0 imgReady 0
+UDPsend dt: 52213
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 51976
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 52024
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 51162
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 52013
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 51960
+SERrecv dt: 51981 Image Type: 0 imgReady 0
+UDPsend dt: 52035
+SERrecv dt: 52017 Image Type: 0 imgReady 0
+UDPsend dt: 51995
+SERrecv dt: 51985 Image Type: 0 imgReady 0
+UDPsend dt: 52425
+SERrecv dt: 51995 Image Type: 0 imgReady 0
+UDPsend dt: 52090
+SERrecv dt: 52005 Image Type: 0 imgReady 0
+UDPsend dt: 51944
+SERrecv dt: 51997 Image Type: 0 imgReady 0
+UDPsend dt: 52065
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 52054
+SERrecv dt: 51996 Image Type: 0 imgReady 0
+UDPsend dt: 52061
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 51892
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 52122
+SERrecv dt: 52006 Image Type: 0 imgReady 0
+UDPsend dt: 52128
+SERrecv dt: 51996 Image Type: 0 imgReady 0
+UDPsend dt: 51169
+SERrecv dt: 52003 Image Type: 0 imgReady 0
+UDPsend dt: 52002
+SERrecv dt: 51996 Image Type: 0 imgReady 0
+UDPsend dt: 52275
+SERrecv dt: 52003 Image Type: 0 imgReady 0
+UDPsend dt: 51956
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51936
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 51944
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 51972
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51921
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51936
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 51945
+SERrecv dt: 52003 Image Type: 0 imgReady 0
+UDPsend dt: 51966
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52981
+SERrecv dt: 51975 Image Type: 0 imgReady 0
+UDPsend dt: 51936
+SERrecv dt: 51994 Image Type: 0 imgReady 0
+UDPsend dt: 51951
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51906
+SERrecv dt: 52009 Image Type: 0 imgReady 0
+UDPsend dt: 51976
+SERrecv dt: 52020 Image Type: 0 imgReady 0
+UDPsend dt: 51965
+SERrecv dt: 51964 Image Type: 0 imgReady 0
+UDPsend dt: 52000
+SERrecv dt: 52039 Image Type: 0 imgReady 0
+UDPsend dt: 51976
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 51981
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 51991
+SERrecv dt: 52974 Image Type: 0 imgReady 0
+UDPsend dt: 53032
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 51966
+SERrecv dt: 52042 Image Type: 0 imgReady 0
+UDPsend dt: 51925
+SERrecv dt: 51959 Image Type: 0 imgReady 0
+UDPsend dt: 51416
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52032
+SERrecv dt: 52035 Image Type: 0 imgReady 0
+UDPsend dt: 52242
+SERrecv dt: 51970 Image Type: 0 imgReady 0
+UDPsend dt: 52279
+SERrecv dt: 52047 Image Type: 0 imgReady 0
+UDPsend dt: 51942
+SERrecv dt: 51945 Image Type: 0 imgReady 0
+UDPsend dt: 52096
+SERrecv dt: 52019 Image Type: 0 imgReady 0
+UDPsend dt: 52319
+SERrecv dt: 51951 Image Type: 0 imgReady 0
+UDPsend dt: 52039
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 51998
+SERrecv dt: 52042 Image Type: 0 imgReady 0
+UDPsend dt: 52042
+SERrecv dt: 51955 Image Type: 0 imgReady 0
+UDPsend dt: 51955
+SERrecv dt: 52050 Image Type: 0 imgReady 0
+UDPsend dt: 52049
+SERrecv dt: 51991 Image Type: 0 imgReady 0
+UDPsend dt: 51997
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 51999
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 51961
+SERrecv dt: 51996 Image Type: 0 imgReady 0
+UDPsend dt: 52041
+SERrecv dt: 52005 Image Type: 0 imgReady 0
+UDPsend dt: 52003
+SERrecv dt: 51993 Image Type: 0 imgReady 0
+UDPsend dt: 51007
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 52022
+SERrecv dt: 51996 Image Type: 0 imgReady 0
+UDPsend dt: 52019
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52021
+SERrecv dt: 51997 Image Type: 0 imgReady 0
+UDPsend dt: 51957
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52985
+SERrecv dt: 52019 Image Type: 0 imgReady 0
+UDPsend dt: 51886
+SERrecv dt: 51983 Image Type: 0 imgReady 0
+UDPsend dt: 52091
+SERrecv dt: 52013 Image Type: 0 imgReady 0
+UDPsend dt: 51129
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 51946
+SERrecv dt: 51967 Image Type: 0 imgReady 0
+UDPsend dt: 51957
+SERrecv dt: 52008 Image Type: 0 imgReady 0
+UDPsend dt: 52017
+SERrecv dt: 52018 Image Type: 0 imgReady 0
+UDPsend dt: 52952
+SERrecv dt: 51989 Image Type: 0 imgReady 0
+UDPsend dt: 50976
+SERrecv dt: 51996 Image Type: 0 imgReady 0
+UDPsend dt: 53056
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51703
+SERrecv dt: 51997 Image Type: 0 imgReady 0
+UDPsend dt: 51963
+SERrecv dt: 52013 Image Type: 0 imgReady 0
+UDPsend dt: 51968
+SERrecv dt: 51990 Image Type: 0 imgReady 0
+UDPsend dt: 51962
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 51942
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 52332
+SERrecv dt: 51993 Image Type: 0 imgReady 0
+UDPsend dt: 51999
+SERrecv dt: 51964 Image Type: 0 imgReady 0
+UDPsend dt: 52057
+SERrecv dt: 52013 Image Type: 0 imgReady 0
+UDPsend dt: 51999
+SERrecv dt: 53028 Image Type: 0 imgReady 0
+UDPsend dt: 52070
+SERrecv dt: 51980 Image Type: 0 imgReady 0
+UDPsend dt: 51925
+SERrecv dt: 52007 Image Type: 0 imgReady 0
+UDPsend dt: 53004
+SERrecv dt: 52015 Image Type: 0 imgReady 0
+UDPsend dt: 51967
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 51939
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 51924
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 51958
+SERrecv dt: 52009 Image Type: 0 imgReady 0
+UDPsend dt: 52085
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 52022
+SERrecv dt: 51962 Image Type: 0 imgReady 0
+UDPsend dt: 52110
+SERrecv dt: 51997 Image Type: 0 imgReady 0
+UDPsend dt: 51998
+SERrecv dt: 51989 Image Type: 0 imgReady 0
+UDPsend dt: 51980
+SERrecv dt: 52038 Image Type: 0 imgReady 0
+UDPsend dt: 51390
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 51952
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 51937
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51958
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 52836
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52010
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 51994
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 51964
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51574
+SERrecv dt: 51984 Image Type: 0 imgReady 0
+UDPsend dt: 51866
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 52000
+SERrecv dt: 52022 Image Type: 0 imgReady 0
+UDPsend dt: 51595
+SERrecv dt: 51991 Image Type: 0 imgReady 0
+UDPsend dt: 52428
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 52138
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 51978
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 52027
+SERrecv dt: 51997 Image Type: 0 imgReady 0
+UDPsend dt: 52011
+SERrecv dt: 52005 Image Type: 0 imgReady 0
+UDPsend dt: 51985
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 52158
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 51585
+SERrecv dt: 51996 Image Type: 0 imgReady 0
+UDPsend dt: 51896
+SERrecv dt: 52003 Image Type: 0 imgReady 0
+UDPsend dt: 52110
+SERrecv dt: 51956 Image Type: 0 imgReady 0
+UDPsend dt: 51593
+SERrecv dt: 52024 Image Type: 0 imgReady 0
+UDPsend dt: 52913
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 51980
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 51471
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 52109
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52059
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 52032
+SERrecv dt: 52009 Image Type: 0 imgReady 0
+UDPsend dt: 52054
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 51649
+SERrecv dt: 52992 Image Type: 0 imgReady 0
+UDPsend dt: 53131
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 52073
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 51976
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52001
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 52035
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51889
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52104
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 52009
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 51956
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 52076
+SERrecv dt: 51983 Image Type: 0 imgReady 0
+UDPsend dt: 52060
+SERrecv dt: 52003 Image Type: 0 imgReady 0
+UDPsend dt: 51982
+SERrecv dt: 51958 Image Type: 0 imgReady 0
+UDPsend dt: 51534
+SERrecv dt: 52032 Image Type: 0 imgReady 0
+UDPsend dt: 52278
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 51979
+SERrecv dt: 52003 Image Type: 0 imgReady 0
+UDPsend dt: 51886
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 52167
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 51982
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 52078
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 51980
+SERrecv dt: 52008 Image Type: 0 imgReady 0
+UDPsend dt: 52016
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 52023
+SERrecv dt: 51995 Image Type: 0 imgReady 0
+UDPsend dt: 52472
+SERrecv dt: 51997 Image Type: 0 imgReady 0
+UDPsend dt: 51159
+SERrecv dt: 52005 Image Type: 0 imgReady 0
+UDPsend dt: 52579
+SERrecv dt: 51997 Image Type: 0 imgReady 0
+UDPsend dt: 52249
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 52003
+SERrecv dt: 51996 Image Type: 0 imgReady 0
+UDPsend dt: 51724
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 52121
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51993
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 51997
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 51978
+SERrecv dt: 52003 Image Type: 0 imgReady 0
+UDPsend dt: 51943
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 51943
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+UDPsend dt: 51981
+SERrecv dt: 52003 Image Type: 0 imgReady 0
+UDPsend dt: 51832
+SERrecv dt: 51978 Image Type: 0 imgReady 0
+UDPsend dt: 51971
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 52002
+SERrecv dt: 52010 Image Type: 0 imgReady 0
+UDPsend dt: 52036
+SERrecv dt: 52011 Image Type: 0 imgReady 0
+UDPsend dt: 52066
+SERrecv dt: 51979 Image Type: 0 imgReady 0
+UDPsend dt: 51944
+SERrecv dt: 52021 Image Type: 0 imgReady 0
+UDPsend dt: 51988
+SERrecv dt: 51980 Image Type: 0 imgReady 0
+UDPsend dt: 52103
+SERrecv dt: 52022 Image Type: 0 imgReady 0
+UDPsend dt: 52037
+SERrecv dt: 52980 Image Type: 0 imgReady 0
+UDPsend dt: 53079
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 52082
+SERrecv dt: 52010 Image Type: 0 imgReady 0
+UDPsend dt: 52127
+SERrecv dt: 51994 Image Type: 0 imgReady 0
+UDPsend dt: 51129
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 52081
+SERrecv dt: 51994 Image Type: 0 imgReady 0
+UDPsend dt: 52062
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 52274
+SERrecv dt: 51999 Image Type: 0 imgReady 0
+UDPsend dt: 52457
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 52000
+SERrecv dt: 52000 Image Type: 0 imgReady 0
+UDPsend dt: 51997
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 51131
+SERrecv dt: 51980 Image Type: 0 imgReady 0
+UDPsend dt: 52808
+SERrecv dt: 51998 Image Type: 0 imgReady 0
+UDPsend dt: 52139
+SERrecv dt: 52002 Image Type: 0 imgReady 0
+UDPsend dt: 52006
+SERrecv dt: 52004 Image Type: 0 imgReady 0
+UDPsend dt: 52002
+SERrecv dt: 51996 Image Type: 0 imgReady 0
+UDPsend dt: 51846
+SERrecv dt: 52001 Image Type: 0 imgReady 0
+rcvd:        200
+UDPsend dt: 51858
+sent:        200
+SERrecv dt:
