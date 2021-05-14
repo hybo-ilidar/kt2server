@@ -132,6 +132,8 @@ void Serial(int thread_argument) {
   sp_flush( port, SP_BUF_BOTH );
   fprintf(stderr,"flushed serial port buffers\n");
 
+  auto t0 = tic();
+  auto tref = t0;
   while(1) {
     // Get some data to scratchpad
     // int maxCnt = serialReadBlock(serialArray, 1000);
@@ -172,8 +174,13 @@ void Serial(int thread_argument) {
 						// Print a message to see what is going on
 						// printf("SERrecv dt: %ld Image Type: %d imgReady %d\n", dt, imgType, imgReady);
 						nframes_rcvd++;
-						if( 0 == (nframes_rcvd % MODULO_DISPLAY) ) 
-							printf("rcvd: %10d\n", nframes_rcvd );
+						if( 0 == (nframes_rcvd % MODULO_DISPLAY) ) {
+              auto t = tic();
+              double dt = toc_double(tref);
+              double fps = (double)(MODULO_DISPLAY) / dt;
+              tref = t;
+              printf("rcvd: %10d dt: %.3lf fps: %.1lf\n", nframes_rcvd, dt, fps );
+            }
 						imgReady = 1; // Signal to the udp thread / weak synchronization
 					} // END final line of video
         } // END line of video is valid (row and type)
@@ -234,19 +241,17 @@ void UdpServer(int thread_argument) {
 
   printf("Socket ready\n");
 
-  auto t0 = tic(); // timestamping
+  auto t0 = tic();
+  auto tref = t0;
   while(1){
     if(!imgReady) {
       usleep(1000); // sleep 1 ms
       continue;
     }
-		uint64_t dt = toc_u64(t0); // socket timestamping
-		t0 = tic(); 
 
     // release intermetdiate queue
 		imgReady = 0;
 
-		// printf("UDPsend dt: %ld\n", dt);
     for(i=0;i<40;i++) { // send the whole image as 40 UDP datagrams 646 bytes long
 		  int nbytes = sendto( sockfd, (const char*)udp_buf[i], 646, 0, (struct sockaddr*)&addr, sizeof(addr));
 		  if( nbytes < 0) {
@@ -257,8 +262,13 @@ void UdpServer(int thread_argument) {
 		// printf("Send one frame\n" );
 	  // putchar('x');
     nframes_sent++;
-		if( 0 == (nframes_sent % MODULO_DISPLAY) ) 
-			printf("sent: %10d\n", nframes_sent);
+		if( 0 == (nframes_sent % MODULO_DISPLAY) ) {
+      auto t = tic();
+      double dt = toc_double(tref);
+      double fps = (double)(MODULO_DISPLAY) / dt;
+      tref = t;
+      printf("sent: %10d dt: %.3lf fps: %.1lf\n", nframes_sent, dt, fps );
+    }
 
 		// Log the image if below key is pressed (focus should be at some opencv window)
 		// The images are 16bit unsigned. Some viewer programs may not cope with this.
