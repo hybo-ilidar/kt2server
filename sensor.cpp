@@ -31,6 +31,8 @@ int imgReady = 0;
 int nframes_rcvd = 0;
 int nframes_sent = 0;
 #define MODULO_DISPLAY (100)
+int nerr_crc = 0;
+int nerr_row_or_type = 0;
 
 unsigned char sat[2][320][160];
 short img[2][320][160];
@@ -214,28 +216,38 @@ void Serial(int thread_argument) {
         uint16_t CRC_calculated = getCRC16(&buffer[4], 644);
 
         // If image type and row number and the CRC are valid...
-        if( (imgType >= 0 && imgType <= 1) && (row >= 0 && row < 40) 
-            && (CRC_packet == CRC_calculated) ) {
-					// Copy this row's data to UDP intermediate queue buffer
-					for(i=0;i<646;i++) udp_queue[row][i] = buffer[i]; 
-					if(buffer[4] == cnt_row[imgType]-1) { // this is the final row...
-						uint64_t dt = toc_u64(_timeOffset); // frame timestamping
-						_timeOffset = tic();
-					  // transfer the intermediate udp queue buffer into udp transmit buffer
-					  for(i=0;i<40;i++) for(j=0;j<646;j++) udp_buf[i][j] = udp_queue[i][j];
-						// Print a message to see what is going on
-						// printf("SERrecv dt: %ld Image Type: %d imgReady %d\n", dt, imgType, imgReady);
-						nframes_rcvd++;
-						if( 0 == (nframes_rcvd % MODULO_DISPLAY) ) {
-              auto t = tic();
-              double dt = toc_double(tref);
-              double fps = (double)(MODULO_DISPLAY) / dt;
-              tref = t;
-              printf("rcvd: %10d dt: %.3lf fps: %.1lf\n", nframes_rcvd, dt, fps );
-            }
-						imgReady = 1; // Signal to the udp thread / weak synchronization
-					} // END final line of video
-        } // END line of video is valid (row and type)
+        if( (imgType >= 0 && imgType <= 1) && (row >= 0 && row < 40) ) { 
+          if( CRC_packet == CRC_calculated ) {
+            // Copy this row's data to UDP intermediate queue buffer
+            for(i=0;i<646;i++) udp_queue[row][i] = buffer[i]; 
+            if(buffer[4] == cnt_row[imgType]-1) { // this is the final row...
+              uint64_t dt = toc_u64(_timeOffset); // frame timestamping
+              _timeOffset = tic();
+              // transfer the intermediate udp queue buffer into udp transmit buffer
+              for(i=0;i<40;i++) for(j=0;j<646;j++) udp_buf[i][j] = udp_queue[i][j];
+              // Print a message to see what is going on
+              // printf("SERrecv dt: %ld Image Type: %d imgReady %d\n", dt, imgType, imgReady);
+              nframes_rcvd++;
+              if( 0 == (nframes_rcvd % MODULO_DISPLAY) ) {
+                auto t = tic();
+                double dt = toc_double(tref);
+                double fps = (double)(MODULO_DISPLAY) / dt;
+                tref = t;
+                printf("rcvd: %10d dt: %.3lf fps: %.1lf\n", nframes_rcvd, dt, fps );
+              }
+              imgReady = 1; // Signal to the udp thread / weak synchronization
+            } // END final line of video
+          } else {
+            nerr_crc++;
+            // printf("!");
+            printf("!CRC packet: %04x calc: %04x\n", CRC_packet, CRC_calculated );
+            fflush(stdout);
+          } // END CRC checking
+        } else {
+           nerr_row_or_type++;
+           printf("x");
+           fflush(stdout);
+        } // END of line of video checking (row and type)
       } // END valid line of video data reveived
       ptr++; // Get to next place
 		} // END loop over this buffer from serial port read

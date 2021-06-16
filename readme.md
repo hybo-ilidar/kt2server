@@ -2,7 +2,6 @@
 
 Uses libserialport from sigrok.
 Download and install per directions on their repository:  
-
 * [https://github.com/martinling/libserialport](https://github.com/martinling/libserialport)
 
 1. Build using script file `doit.sh`
@@ -18,7 +17,24 @@ $ echo '/dev/ttyUSB0' > comport.txt
 $ kt2server
 ```
 
-## Notes from Mr. Kim 13 May
+## 16-Jun-2021 CRC Update
+
+Updated server to process new CRC data that is appended to each line.
+If a packet's line of video data doesn't have the correct CRC, 
+then it is not send over UDP and just skipped.
+
+![Scope Capture of CRC data at end of packet](images/scope-capture-crc-data.png)
+
+![Setup of Simulated KT2 Sensor for Testing](images/simulated-kt2-sensor.jpg)
+
+![Results of kt2client.py Plotting Data](images/running-ubuntu-with-sensor-simulator.png)
+
+![Results with a Real Sensor on Windows 10](images/sensor-image-win10-a-hand.png)
+
+
+## Misc Notes
+
+#### Notes from Mr. Kim 13 May
 
 보내주신 UDP 소스코드(sensor.cpp)에서 아래 부분으로 수정하는 것이 맞는
 것인지 확인 부탁드립니다.
@@ -33,7 +49,7 @@ Please check if it is correct to modify the UDP source code (sensor.cpp) below.
 In addition, the Sent event seems to be smaller than the receiving
 event, so please check if it works normally.
 
-## Notes from Dr. Son 15 Jun 2021 (CRC update)
+#### Notes from Dr. Son 15 Jun 2021 (CRC update)
 
 The change is mainly done to eliminate the wrongly-received rows, which
 are shown as noticeable lines on the display.
